@@ -16,13 +16,13 @@
   width: 100%;
   height: 70px;
 }
- ul {
+ul {
   list-style: none;
 }
- li {
+li {
   text-decoration: none;
 }
- a {
+a {
   color: grey;
   text-decoration: none;
 }
@@ -30,17 +30,17 @@ a:hover {
   color: white;
   text-decoration: none;
 }
- h4 {
-   color: white;
- }
- #white_bold_text {
-   color: white;
-   font-weight: bold;
- }
- .my_overlay_container {
-   position: relative;
- }
- .my_overlay {
+h4 {
+  color: white;
+}
+#white_bold_text {
+  color: white;
+  font-weight: bold;
+}
+.my_overlay_container {
+  position: relative;
+}
+.my_overlay {
   display: none;
   top: 0;
   bottom: 0;
@@ -50,12 +50,12 @@ a:hover {
   background: rgb(0, 0, 0);
   width: 100%;
   height: 100%;
- }
- .my_overlay_container:hover .my_overlay {
-   z-index: 99;
-   display: block;
- }
- .my_overlay_text {
+}
+.my_overlay_container:hover .my_overlay {
+  z-index: 99;
+  display: block;
+}
+.my_overlay_text {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -65,7 +65,7 @@ a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
- }
+}
 /* media queries */
 @media only screen and (max-width: 767px) {
   .main_nav {
