@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spotify Web</title>
+  </head>
+  <body>
+    <div class="my_wrapper">
+      <div class="main_container">
+
+        <!-- inizio main nav -->
+        <div class="main_nav container_flex">
+          <div class="top_flex_item">
+            <a href="www.spotify.com">
+              <img class="visible-xs" src="img/logo-small.svg" alt="Spotify logo">
+              <img  id="big_logo" class="hidden-xs" src="img/logo.svg" alt="Spotify logo">
+            </a>
+              <nav class="">
+                <ul>
+                  <li id="top_flex_img" class="my_home"><a href="#"><img src="img/home.svg" alt="Spotify home"><span class="hidden-xs my_home_text">Home</span></a></li>
+                  <li id="top_flex_img"><a href="#"><img src="img/search.svg" alt="Spotify search"><span class="hidden-xs">Cerca</span></a></li>
+                  <li id="top_flex_img"><a href="#"><img src="img/libreria.svg" alt="Spotify library"><span class="hidden-xs">La tua libreria</span></a></li>
+                </ul>
+              </nav>
+              <nav class="hidden-xs">
+                <ul class="play_list">
+                  <li><a  class="my_uppercase" id="white_bold_text" href="#">playlist</li>
+                  <li><a href="#"><i class="fas fa-plus-square"></i><span class="my_uppercase">c</span>rea <span class="my_uppercase">p</span>laylist</a></li>
+                  <li><a href="#"><span class="my_uppercase">n</span>ome <span class="my_uppercase">p</span>laylist</a></li>
+                  <li><a href="#"><span class="my_uppercase">n</span>ome <span class="my_uppercase">p</span>laylist</a></li>
+                  <li><a href="#"><span class="my_uppercase">n</span>ome <span class="my_uppercase">p</span>laylist</a></li>
+                  <li><a href="#"><span class="my_uppercase">n</span>ome <span class="my_uppercase">p</span>laylist</a></li>
+                  <li><a href="#"><span class="my_uppercase">n</span>ome <span class="my_uppercase">p</span>laylist</a></li>
+                  <li><a href="#"><span class="my_uppercase">n</span>ome <span class="my_uppercase">p</span>laylist</a></li>
+                  <li><a href="#"><span class="my_uppercase">n</span>ome <span class="my_uppercase">p</span>laylist</a></li>
+                </ul>
+              </nav>
+          </div>
+          <div class="bottom_flex_item">
+            <a href="#"><img src="img/download.svg" alt=""><span class="hidden-xs">Installa app</span></a>
+            <hr>
+            <a href="#"><img id="my_img_profile" class="img-circle" src="img/profile.svg" alt=""><span id="white_bold_text">John Doe</span></a>
+          </div>
+        </div>
+        <!-- fine main nav -->
+
+        <!-- inizio main content -->
+        <div class="main_content">
+          <div class="top_content">
+            <div class="upgrade_content" id="white_bold_text">effettua l'upgrade
+            </div>
+          </div>
+          <div class="slider_nav">
+            <nav>
+              <ul>
+                <li><a class="my_uppercase evidence_tab" href="#">in evidenza</a></li>
+                <li><a class="my_uppercase" href="#">podcast</a></li>
+                <li><a class="my_uppercase" href="#">classifiche</a></li>
+                <li><a class="my_uppercase" href="#">generi e mood</a></li>
+                <li><a class="my_uppercase" href="#">nuove uscite</a></li>
+                <li><a class="my_uppercase" href="#">scopri</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="slider_box">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h4 id="white_bold_text">Recently Played</h4>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-6 col-md-3 col-lg-2 text-center box_item">
+                  <div class="my_overlay_container"> <!-- da sistemare overlay -->
+                    <img src="img/metal_lifting.jpg" alt="">
+                  </div>
+                  <div class="my_overlay">
+                    <div>overlay di prova</div>
+                  </div>
+                  <h5>Heavy Metal</h5>
+                  <p>Subtitle</p>
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-2 text-center box_item">
+                  <img src="img/stranger.jpeg" alt="">
+                  <h5>Stranger Things, Vol.1 (a Netflix orginal Series Soundtrack)</h5>
+                  <p>Kyle Dixon & Micheal Stein</p>
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-2 text-center box_item">
+                  <img src="img/aquietplace.jpeg" alt="">
+                  <h5>A quiet place</h5>
+                  <p>Subtitle</p>
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-2 text-center box_item">
+                  <img src="img/split.jpeg" alt="">
+                  <h5>Split</h5>
+                  <p>Subtitle</p>
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-2 text-center box_item">
+                  <img src="img/cure.jpeg" alt="">
+                  <h5>A cure for wellness</h5>
+                  <p>Subtitle</p>
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-2 text-center box_item">
+                  <img src="img/sinister.jpeg" alt="">
+                  <h5>Sinister</h5>
+                  <p>Subtitle</p>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h4 id="white_bold_text">Creato per John Doe</h4>
+                  <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                </div>
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-xs-6 col-md-3 col-lg-2 text-center">
+                      <img src="img/radar.jpeg" alt="">
+                      <h5>Release Radar</h5>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-lg-2 text-center">
+                      <img src="img/mixdaily.jpeg" alt="">
+                      <h5>Daily Mix 1</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h4 id="white_bold_text">Artisti più popolari</h4>
+                  <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                </div>
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-xs-6 col-md-3 col-lg-2 text-center">
+                      <img src="img/youg.jpeg"class="img-circle" alt="">
+                      <h5>Release Radar</h5>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-lg-2 text-center">
+                      <img src="img/einaudi.jpeg" class="img-circle" alt="">
+                      <h5>Ludovico Einaudi</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="my_footer">
+          <div class="footer_container_flex">
+            <div class="footer_start_item">
+              <img src="img/sinister.jpeg" alt="">
+              <div class="footer_sub_block">
+                <h5>Sinister</h5>
+                <p>Brano Nome</p>
+              </div>
+              <div class="footer_sub_block">
+                  <i class="far fa-heart"></i>
+                  <i class="far fa-folder"></i>
+              </div>
+            </div>
+            <div class="footer_center_item">
+              <div class="radio_buttons">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-step-backward"></i>
+                <i class="far fa-play-circle"></i>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-redo-alt"></i>
+              </div>
+              <div class="footer_sub_block_2">
+                <span>0:25</span>
+                <hr class="music_rule">
+                <span>4:35</span>
+              </div>
+              </div>
+              <div class="footer_end_item">
+                <i class="fas fa-list"></i>
+                <i class="fas fa-desktop"></i>
+                <i class="fas fa-volume-up"></i>
+                <hr class="music_rule_min">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* utilities */
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+.my_uppercase {
+  text-transform: uppercase;
+}
+#big_logo {
+  width: 100%;
+  height: 70px;
+}
+ ul {
+  list-style: none;
+}
+ li {
+  text-decoration: none;
+}
+ a {
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+ h4 {
+   color: white;
+ }
+ #white_bold_text {
+   color: white;
+   font-weight: bold;
+ }
+ .my_overlay_container {
+   position: relative;
+ }
+ .my_overlay {
+  display: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+ }
+ .my_overlay_container:hover .my_overlay {
+   z-index: 99;
+   display: block;
+ }
+ .my_overlay_text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+ }
+/* media queries */
+@media only screen and (max-width: 767px) {
+  .main_nav {
+    width: 50px;
+    padding: 10px;
+  }
+  .main_content {
+    width: calc(100% - 50px);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .main_nav {
+    width: 150px;
+  }
+  .main_content {
+    width: calc(100% - 150px);
+  }
+}
+/* fine media queries */
+
+/* struttura */
+.my_wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+.main_container {
+  height: calc(100% - 90px);
+  width: 100vw;
+}
+.main_nav {
+  float: left;
+  height: 100%;
+  background: black;
+  padding: 10px;
+  font-size: 10px;
+}
+.main_content {
+  float: left;
+  height: 100%;
+  overflow-y: auto;
+  background: #141922;
+}
+.top_content {
+  top: 0;
+  width: 100%;
+  height: 90px;
+  background: black;
+}
+.my_footer {
+  height: 90px;
+  background: #282828;
+  color: white;
+}
+/* fine struttura */
+
+/* main nav section */
+.container_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main_nav img {
+  width: 30px;
+  height: 50px;
+}
+#top_flex_img img {
+  width: 30px;
+  height: 40px;
+}
+.my_home_text {
+  color: white;
+}
+.play_list i {
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+.play_list li {
+  line-height: 2em;
+}
+.bottom_flex_item {
+  vertical-align: text-bottom;
+}
+.bottom_flex_item span {
+  padding-left: 10px;
+}
+.bottom_flex_item img {
+  height: 20px;
+}
+.bottom_flex_item hr {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#my_img_profile {
+  height: 30px;
+  background-color: grey;
+}
+/* fine main nav section */
+
+/* inizio main content */
+.top_content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.upgrade_content {
+  margin-right: 5px;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+.slider_nav ul {
+  font-size: 10px;
+  text-align: center;
+}
+.slider_nav li {
+  display: inline-block;
+  padding: 10px;
+}
+.evidence_tab {
+  border-bottom: 2px solid lightgreen;
+}
+.slider_box {
+  padding: 10px;
+  width: 100%;
+}
+.box_item {
+  height: 250px;
+  margin-bottom: 10px;
+}
+.slider_box img {
+  height: 160px;
+}
+.slider_box h5 {
+  color: white;
+}
+.slider_box p {
+  color: lightgrey;
+}
+/* fine main content */
+
+
+/* inizio footer */
+.footer_container_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_start_item {
+  padding-left: 20px;
+  line-height: 0.1em;
+}
+.footer_start_item img {
+  height: 90px;
+  padding: 20px;
+}
+.footer_center_item {
+  text-align: center;
+}
+.footer_end_item {
+  padding-right: 10px;
+}
+.footer_container_flex i {
+  padding-left: 10px;
+}
+.footer_sub_block {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer_sub_block h5,
+.footer_sub_block p {
+  font-size: 10px;
+}
+.footer_sub_block p {
+  color: lightgrey;
+}
+
+.music_rule {
+  display: inline-block;
+  width: 300px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: lightgrey;
+  vertical-align: middle;
+}
+.music_rule_min {
+  display: inline-block;
+  width: 80px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: lightgrey;
+  vertical-align: middle;
+}
+/* fine footer */
