@@ -213,54 +213,61 @@ h4 {
 
 
 /* inizio footer */
-.footer_container_flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.my_footer {
+  font-size: 10px;
+  line-height: 0.2em;
+  vertical-align: middle;
 }
-.footer_start_item {
-  padding-left: 20px;
+.left_container {
+  padding-top: 10px;
+}
+.footer_text_left {
+  text-align: left;
   line-height: 0.1em;
+  padding-left: 0;
+  padding-right: 0;
 }
-.footer_start_item img {
-  height: 90px;
-  padding: 20px;
+.my_footer img {
+  width: 60%;
+  height: 100%;
+  padding-top: 10px;
+}
+.i_left_class {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.5em;
+  padding-left: 0;
+  padding-top: 10px;
 }
 .footer_center_item {
   text-align: center;
+  padding-top: 20px;
+}
+.radio_buttons {
+  padding-bottom: 10px;
+}
+.footer_center_item i {
+  padding-left: 10px;
+  font-size: 18px;
+}
+.music_spin {
+  display: inline-block;
+  width: 80%;
+  height: 0;
+  border-radius: 10px;
+  border: 2px solid lightgrey;
 }
 .footer_end_item {
-  padding-right: 10px;
+  padding-top: 30px;
 }
-.footer_container_flex i {
-  padding-left: 10px;
-}
-.footer_sub_block {
-  display: inline-block;
-  vertical-align: middle;
-}
-.footer_sub_block h5,
-.footer_sub_block p {
+.footer_end_item i {
   font-size: 10px;
 }
-.footer_sub_block p {
-  color: lightgrey;
-}
-
-.music_rule {
+.music_spin_min {
   display: inline-block;
-  width: 300px;
-  height: 3px;
-  border-radius: 50px;
-  background-color: lightgrey;
-  vertical-align: middle;
-}
-.music_rule_min {
-  display: inline-block;
-  width: 80px;
-  height: 3px;
-  border-radius: 50px;
-  background-color: lightgrey;
-  vertical-align: middle;
+  width: 40%;
+  height: 0;
+  border-radius: 10px;
+  border: 2px solid lightgrey;
 }
 /* fine footer */
